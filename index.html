@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <header>
+      <!-- Navigation bar started -->
+        <nav class="navbar navbar-expand-lg my-3 container">
+            <div class="container-fluid">
+              <h1 class="navbar-brand" href="#">Pro Edu</h1>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0 px-2">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="#">Courses</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="#">Deals</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="#">Success</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="#">About</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link" href="#">Disabled</a>
+                  </li>
+                </ul> 
+                  <button class="btn btn-outline-primary" type="submit">Register</button>
+              </div>
+            </div>
+          </nav>
+      <!-- Navigation bar End -->
+
+      <!-- Slider started  -->
+      <section class="slider">
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner border rounded" >
+                  <div class="carousel-item active bg-dark">
+                    <img src="images/cover-2/cover-1.png" class="d-block w-100 h-100 opacity-50" alt="...">
+                    <div class=" carousel-caption d-flex justify-content-center align-items-center flex-column m-auto h-100">
+                        <h1 class="">Get Started Digital Learning</h1>
+                        <p class="">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                        <button class="btn btn-primary fw-semibold">Get Started</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item active bg-dark">
+                    <img src="images/cover-2/cover-2.jpg" class="d-block w-100 h-100 opacity-50" alt="...">
+                    <div class=" carousel-caption d-flex justify-content-center align-items-center flex-column m-auto h-100">
+                        <h1 class="">Experiential Learning Platform</h1>
+                        <p class=""> Experiential learning platform that transforms science labs into game-based learning.</p>
+                        <button class="btn btn-primary fw-semibold">Get Started</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item active bg-dark">
+                    <img src="images/cover-2/cover-3.jpg" class="d-block w-100 h-100 opacity-50" alt="...">
+                    <div class=" carousel-caption d-flex justify-content-center align-items-center flex-column m-auto h-100">
+                        <h1 class="">Technology Learning Platform</h1>
+                        <p class="">Learn web development & coding anywhere at your own pace. Skill Assessments. Hands-on Learning. Offline Access.</p>
+                        <button class="btn btn-primary fw-semibold">Get Started</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+      <!-- Slider End  -->
+    </header>
+
+    <main>
+      <!-- Courses started  -->
+      <section class="courses container">
+        <div class="container">
+          <div class="card text-center my-5 border-0">
+              <div class="card-body col-lg-6 m-auto">
+                <h1>Discover Our Popular
+                  Courses</h1>
+                <p class="text-secondary">
+                  It is a long established fact that a reader will be distracted by the readable
+                  content of a page when looking at its layout.
+                </p>
+              </div>
+            </div>
+       </div>
+          <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4 pb-5">
+              <div class="col">
+                  <div class="card mb-3">
+                      <div class="row g-0">
+                        <div class="col-md-4">
+                          <img src="images/course/course-1.png" class="w-100 h-100" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card.</p>
+  
+                          </div>
+                          <div>
+                            <a href="#" class="mx-3 text-primary text-decoration-none fs-5 fw-bold">Price : 20$</a href="#">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card mb-3">
+                      <div class="row g-0">
+                        <div class="col-md-4">
+                          <img src="images/course/course-2.png" class="w-100 h-100" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Javascript Basic to advanced</h5>
+                            <p class="card-text text-secondary">Some quick example text to build on the card title
+                              and make up the bulk of the card.</p>
+                          </div>
+                          <div>
+                            <a href="#" class="mx-3 text-primary text-decoration-none fs-5 fw-bold">Price : 20$</a href="#">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card mb-3">
+                      <div class="row g-0">
+                        <div class="col-md-4">
+                          <img src="images/course/course-3.png" class="w-100 h-100" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Fullstack Web Development</h5>
+                            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                          </div>
+                          <div>
+                            <a href="#" class="mx-3 text-primary text-decoration-none fs-5 fw-bold">Price : 20$</a href="#">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+  
+  
+              <div class="col">
+                  <div class="card mb-3">
+                      <div class="row g-0">
+                        <div class="col-md-4">
+                          <img src="images/course/course-4.png" class="w-100 h-100" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Digital Marketing</h5>
+                            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                          </div>
+                          <div>
+                            <a href="#" class="mx-3 text-primary text-decoration-none fs-5 fw-bold">Price : 20$</a href="#">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card mb-3">
+                      <div class="row g-0">
+                        <div class="col-md-4">
+                          <img src="images/course/course-5.png" class="w-100 h-100" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Photography Basic Rules</h5>
+                            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                          </div>
+                          <div>
+                            <a href="#" class="mx-3 text-primary text-decoration-none fs-5 fw-bold">Price : 20$</a href="#">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+  
+              <div class="col">
+                  <div class="card mb-3">
+                      <div class="row g-0">
+                        <div class="col-md-4">
+                          <img src="images/course/course-6.png" class="w-100 h-100" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Motion Graphics</h5>
+                            <p class="card-text text-secondary">Some quick example text to build on the card title and make up the bulk of the card.</p>
+                          </div>
+                          <div>
+                            <a href="#" class="mx-3 text-primary text-decoration-none fs-5 fw-bold">Price : 20$</a href="#">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="text-center w-100">
+                <button class="btn btn-primary px-3 py-2 fw-bold">View All</button>
+              </div>
+          </div>
+      </section>
+      <!-- Courses end  -->
+
+      <!-- Ready to join searted  -->
+      <section>
+        <div class="container m-auto">
+          <div class="">
+              <div class="row row-cols-1 row-cols-md-1 row-cols-lg-1 g-4">
+                  <div class="col ">
+                      <div class="card mb-3">
+                          <div class="row g-0 bg-primary text-white p-5 rounded">
+                            <div class="col-md-10">
+                              <div class="card-body">
+                                <h1 class="card-title">Ready to join?</h1>
+                                <p class="card-text col-md-6" >It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                              </div>
+                            </div>
+          
+                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                              <button type="button" class="btn btn-light fw-bold p-2 text-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                  Register Now
+                              </button>
+                            </div>
+          
+                          </div>
+                        </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Why did you register to this course?</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+              <p>Emphasize that you were the one who made the final decision to enroll in the course. While you may discuss others advised you on the choice, your answer showcases your decision-making skills. Try to avoid mentioning that you enrolled in the course because of potential financial benefits.</p>
+              </div>
+              <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Done</button>
+              </div>
+          </div>
+          </div>
+      </div>
+      </section>
+      <!-- Ready to join end  -->
+
+      <!-- Frequently asked question started  -->
+      <section class="my-5">
+        <div class="container">
+          <div class="card text-center my-5 border-0">
+              <div class="card-body col-lg-6 m-auto">
+                <h1>Frequently Asked Questions</h1>
+                <p class="text-secondary">
+                  It is a long established fact that a reader will be distracted by the readable
+                  content of a page when looking at its layout.
+                </p>
+              </div>
+            </div>
+       </div>
+  
+       <div class="container">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item border rounded p-2 ">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                      What is inspiring about information technology?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">The number one benefit of information technology is that it empowers people to do what they want to do. It lets people be creative. It lets people be productive. It lets people learn things they didn't think they could learn before, and so in a sense it is all about potential.</div>
+                </div>
+              </div>
+              <div class="accordion-item border rounded my-3 p-2">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                      Why is information technology important?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Information technology helps to build and grow the commerce and business sector and generate maximum possible output. The time taken by different sectors to generate business is now minimised with an advancement in Information technology. It provides electronic security, storage, and efficient communication.</div>
+                </div>
+              </div>
+              <div class="accordion-item border rounded p-2 mb-3">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      How is technology a blessing?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Another reason technology is a blessing is the fact that you can get many bargains online without even leaving your living room. If you're a busy mother who can't go out and do the shopping, you can forget the queues and get online to grab some amazing bargains.</div>
+                </div>
+              </div>
+              <div class="accordion-item border rounded p-2">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                      How would you describe information technology?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Information technology (IT) is the use of any computers, storage, networking and other physical devices, infrastructure and processes to create, process, store, secure and exchange all forms of electronic data.</div>
+                  </div>
+                </div>
+            </div>
+       </div>  
+      </section>
+      <!-- Frequently asked question end  -->
+
+      <!-- trusted companies started  -->
+      <section class="trusted-companies my-5">
+        <div class="container">
+            <h2 class="text-center mt-5">Trusted by over 800+ companies</h2>
+                <div class="container text-center">
+                    <div class="row row-cols-6">
+                      <div class="col"><img src="images/company/company-1.png" alt="" srcset=""></div>
+                      <div class="col"><img src="images/company/company-2.png" alt="" srcset=""></div>
+                      <div class="col"><img src="images/company/company-3.png" alt="" srcset=""></div>
+                      <div class="col"><img src="images/company/company-4.png" alt="" srcset=""></div>
+                      <div class="col"><img src="images/company/company-5.png" alt="" srcset=""></div>
+                      <div class="col"><img src="images/company/company-6.png" alt="" srcset=""></div>
+                    </div>
+                  </div>
+        </div>
+    </section>
+      <!-- trusted companies end  -->
+    </main>
+
+       <!-- Footer -->
+
+    <!-- Section: Text -->
+    <footer class="text-center text-white" style="background-color: #131313">
+      <div class="container">
+        <section class="mb-5">
+          <div class="row d-flex justify-content-center pt-5">
+            <div class="col-lg-8">
+                <h1>Pro Edu</h1>
+              <a class="d-block text-decoration-none text-white">
+                Office 41, Zawaya Buildin, Ghala Muscat, 
+              </a>
+              <a class="d-block text-decoration-none text-white">
+                Sultanate of Oman
+              </a>
+              <a class="d-block text-decoration-none text-info">
+                Privacy Ploicy | Terms of use 
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Text -->
+  
+        <!-- Section: Social -->
+        <section class="text-center pb-5">
+          <a href="" class="text-white-50 me-4">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a href="" class="text-white-50 me-4">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="" class="text-white-50 me-4">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="" class="text-white-50 me-4">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </section>
+        <!-- Section: Social -->
+      </div>
+    </footer>
+    <!-- Footer -->
+
+    
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/78272fb6fe.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+.trusted-companies{
+    display: none;
+}
+
+@media screen and (min-width:993px) {
+    .trusted-companies{
+        display: block;
+    }
+}
